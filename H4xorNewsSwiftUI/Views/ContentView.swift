@@ -12,15 +12,21 @@ struct ContentView: View {
     @ObservedObject var networkManager = NetworkManager()
     
     var body: some View {
+        
         NavigationView {
+            
             List(networkManager.posts, rowContent: { post in
-                HStack {
-                    Text(String(post.points))
-                    Text(post.title)
+                // управляет переходом по нажатию на ячейку
+                NavigationLink(destination: DetailView(url: post.url)) {
+                    
+                    HStack {
+                        Text(String(post.points))
+                        Text(post.title)
+                    }
                 }
             })
-            .navigationTitle("H4xor News")
-            .listStyle(.inset)
+                .navigationTitle("H4xor News")
+                .listStyle(.inset)
         }
         // заменяет viewDidLoad, когда загружается view вызывается этот метод
         .onAppear {

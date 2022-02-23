@@ -13,6 +13,8 @@
 		F7F4FA1227C699EF00EF9022 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F4FA1127C699EF00EF9022 /* Preview Assets.xcassets */; };
 		F7F4FA1A27C69E7500EF9022 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4FA1927C69E7500EF9022 /* NetworkManager.swift */; };
 		F7F4FA1C27C6A03F00EF9022 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4FA1B27C6A03F00EF9022 /* PostData.swift */; };
+		F7F4FA1F27C6AA3E00EF9022 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4FA1E27C6AA3E00EF9022 /* DetailView.swift */; };
+		F7F4FA2127C6B4CB00EF9022 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4FA2027C6B4CB00EF9022 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		F7F4FA1127C699EF00EF9022 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7F4FA1927C69E7500EF9022 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F7F4FA1B27C6A03F00EF9022 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		F7F4FA1E27C6AA3E00EF9022 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F7F4FA2027C6B4CB00EF9022 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				F7F4FA0A27C699ED00EF9022 /* H4xorNewsSwiftUIApp.swift */,
-				F7F4FA0C27C699ED00EF9022 /* ContentView.swift */,
+				F7F4FA1D27C6AA2B00EF9022 /* Views */,
 				F7F4FA1827C69E6000EF9022 /* Models */,
 				F7F4FA0E27C699EF00EF9022 /* Assets.xcassets */,
 				F7F4FA1027C699EF00EF9022 /* Preview Content */,
@@ -79,6 +83,16 @@
 				F7F4FA1B27C6A03F00EF9022 /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F7F4FA1D27C6AA2B00EF9022 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7F4FA0C27C699ED00EF9022 /* ContentView.swift */,
+				F7F4FA1E27C6AA3E00EF9022 /* DetailView.swift */,
+				F7F4FA2027C6B4CB00EF9022 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +168,8 @@
 				F7F4FA1A27C69E7500EF9022 /* NetworkManager.swift in Sources */,
 				F7F4FA1C27C6A03F00EF9022 /* PostData.swift in Sources */,
 				F7F4FA0D27C699ED00EF9022 /* ContentView.swift in Sources */,
+				F7F4FA2127C6B4CB00EF9022 /* WebView.swift in Sources */,
+				F7F4FA1F27C6AA3E00EF9022 /* DetailView.swift in Sources */,
 				F7F4FA0B27C699ED00EF9022 /* H4xorNewsSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
